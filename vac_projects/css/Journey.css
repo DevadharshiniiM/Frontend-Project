@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+
+.navbar {
+    padding:20px 10px;
+
+    background-color: #211a3f;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar a{
+    color: rgb(240, 229, 229);
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+}
+ 
+ 
+.foot{
+    width: auto;
+    height: auto;
+    background-color:   #c7ad657a;
+    position: sticky;
+    
+    padding: 18px;
+    bottom: 0;
+    font-size: 12px;
+   }
+   .foot a{
+       color: black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-decoration: none;
+       padding-right: 10px;
+   }
